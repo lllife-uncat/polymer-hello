@@ -1,0 +1,28 @@
+﻿
+<link rel="import" href="../bower_components/polymer/polymer.html" />
+<link rel="import " href="../bower_components/paper-button/paper-button.html" />
+<link rel="import" href="../bower_components/font-roboto/roboto.html" />
+<link rel="import" href="../bower_components/core-icons/core-icons.html" />
+
+<polymer-element name="my-element" attributes="text">
+
+    <template>
+        <link href="my-element.css" rel="stylesheet">
+        <section>
+            <paper-button raisedbutton class="colored" label="{{text}}"></paper-button>
+        </section>
+
+        <section>
+            <input type="range" id="age" value="{{age}}" />
+            <span>My age is {{age}}</span>
+        </section>
+    </template>
+
+    <script>
+        Polymer('my-element', {
+            owner: "Daniel",
+            age: 20
+        });
+    </script>
+
+</polymer-element>

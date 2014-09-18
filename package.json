@@ -1,0 +1,10 @@
+{
+  "name": "HelloPolymer",
+  "version": "0.0.0",
+  "description": "HelloPolymer",
+  "main": "app.js",
+  "author": {
+    "name": "wk",
+    "email": ""
+  }
+}
